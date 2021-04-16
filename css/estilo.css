@@ -11,6 +11,11 @@ body {
     color: white;
 }
 
+i{
+    font-size: clamp(0.75em, 0.75em + 1vw, 0.75em);
+   }
+
+
 /*Navbar*/
 
 .sidenav {
