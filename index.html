@@ -15,7 +15,7 @@
     <title>Mini Projeto</title>
 </head>
 
-<body style="background-image: linear-gradient(135deg, #9708CC 10%, #0990F1 100%)">
+<body>
     <!--Menu Navbar-->
     <div style="background-color: white; color:black;" id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -52,7 +52,7 @@
 
 
     <!-- Imagem e texto -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-transparent">
         <a class="navbar-brand" href="#">
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
         </a>
@@ -61,13 +61,12 @@
     <!--Section 0-->
     <section>
         <!--Jumbotrom - fluid-->
-        <div class="jumbotron jumbotron-fluid" style="color:black">
-            <div class="container">
+        <div class="jumbotron jumbotron-fluid jumbotron-with-background" style="color:black">
+            <div class="container d-none d-md-block">
                 <!-- estilo texto-->
-                <h1 class="display-4">Mini-Projeto</h1>
+                <h1 class="display-5">Mini-Projeto</h1>
                 <!--lead-->
                 <p class="lead">Meu Portifólio</p>
-                <p class="lead">Ferramentas - Bootstrap</p>
             </div>
         </div>
     </section>
@@ -82,7 +81,7 @@
 
                     <div class="section-title text-center">
                         <!-- estilo texto-->
-                        <h2 class="display-4">Jose Guilherme Pimentel da Rocha</h2>
+                        <h2 class="display-4">José Guilherme Pimentel da Rocha</h2>
                         <p>Novo na área de desenvolvimento Full-Stack com muito foco e muita ambição, realizou diversos
                             projetos,
                             em grupo e individual junto a turma1 da SoulCode Academy e está pagina demonstrar o
@@ -145,45 +144,47 @@
                             <div class=" col-lg-12 social-links text-center p-5">
                                 <h4>Me siga nas Redes Socias</h4>
                                 <!-- Colunas - espaçamento-->
-                                <div class="row p-5">
+                                <div class="row">
                                     <!--Colunas sm - Small devices (landscape phones, 576px and up) - btn -->
-                                    <div class="col-sm-4 social-buttons">
+                                    <div class="col-md-4 social-buttons">
 
                                         <a href="https://www.facebook.com/guifast.pimentel" target="_blank"
                                             class="btn btn-block btn-social btn-facebook">
-                                            <i class="fa fa-facebook"></i> Facebook
+                                            </i> Facebook
                                         </a>
 
                                         <a href="https://github.com/JGuilhermePimentelDaRocha" target="_blank"
                                             class="btn btn-block btn-social btn-github">
-                                            <i class="fa fa-github"></i> GitHub
+                                            </i> GitHub
                                         </a>
+                                        <br>
                                     </div>
 
                                     <!--Colunas sm - Small devices (landscape phones, 576px and up) - btn-->
-                                    <div class="col-sm-4 social-buttons">
+                                    <div class="col-md-4 social-buttons">
 
                                         <a href="https://www.instagram.com/j.guilherme.pimentel/" target="_blank"
                                             class="btn btn-block btn-social btn-instagram">
-                                            <i class="fa fa-instagram"></i> Instagram
+                                            </i> Instagram
                                         </a>
                                         <a href="https://www.linkedin.com/in/joseguilhermepimenteldarocha/"
                                             target="_blank" class="btn btn-block btn-social btn-linkedin">
-                                            <i class="fa fa-linkedin"></i> LinkedIn
+                                            </i> LinkedIn
                                         </a>
+                                        <br>
                                     </div>
 
                                     <!--Colunas sm - Small devices (landscape phones, 576px and up) - btn-->
-                                    <div class="col-sm-4 social-buttons">
+                                    <div class="col-md-4 social-buttons">
 
                                         <a href="https://twitter.com/" target="_blank"
                                             class="btn btn-block btn-social btn-twitter">
-                                            <i class="fa fa-twitter"></i> Twitter
+                                            Twitter
                                         </a>
 
                                         <a href="https://mail.google.com/" target="_blank"
                                             class="btn btn-block btn-social btn-google-plus">
-                                            <i class="fa fa-google-plus"></i> Google
+                                            Google
                                         </a>
 
                                     </div>
@@ -199,33 +200,21 @@
 
     </section>
 
-    <!--Section 2-->
-    <section style="background-color: white;" id="skills">
-        <!--Alinhamento - espaçamento-->
-        <div class="section-title text-center py-5">
-            <!--estilo texto-->
-            <h2 class="display-4" style="color:black;">Skills</h2>
-        </div>
 
-        <!--row-->
-        <div id="cards">
-            <!--Colunas md - Medium devices (tablets, 768px and up)-->
-            <!--Alinhamento -->
-        </div>
-
-    </section>
 
     <!--Section 3-->
     <section id="projetos">
         <!-- Colunas - espaçamento-->
-        <div style="background-image: linear-gradient(135deg, #9708CC 10%, #0990F1 100%)">
-            <div class="col-12">
+        <div>
+            <div class="col-12 bg-dark">
                 <!--estilo texto-->
-                <h3 class="display-4 text-center p-5" style="color: white">Projetos Realizados</h3>
+                <h3 class="display-3 text-center p-5" style="color: white">Projetos Realizados</h3>
                 <!--Alinhamento-->
-                <p class="text-center pb-3" style="color: white">Projetos realizados em grupo no bootcamp da SoulCode
+                <p class="text-center pb-3" style="color: white">Projetos realizados no bootcamp da SoulCode
                     Academy
                 </p>
+            </div>
+            <div class="col-12">
                 <!--Alinhamento-->
                 <hr>
                 <!--card group-->
@@ -435,18 +424,21 @@
                 </div>
             </div>
         </div>
+        <br>
     </section>
 
     <!--Section 4-->
     <section id="contato">
         <!--row-->
         <!--Alinhamento- espaçamento-->
-        <div class="col-12 p-5">
+        <div class="col-12 bg-dark">
             <!--Alinhamento- espaçamento-->
             <div class="section-title text-center p-5">
                 <!--estilo texto-->
-                <h2 class="display-4">Contato</h2>
+                <h2 class="display-4" style="color:white">Contato</h2>
             </div>
+        </div>
+        <div class="col-12 p-5">
             <!--form group-->
             <div class="form-group">
                 <label>Nome completo</label>
@@ -486,7 +478,7 @@
     <!--alinhamento-->
     <footer id="footer" style="background-color: rgb(241, 241, 241)" class="col-12 p-5">
         <div class="container text-center">
-            <h3>Jose Guilherme Pimentel da Rocha</h3>
+            <h3>José Guilherme Pimentel da Rocha</h3>
             <p>Julgue seu sucesso pelas coisas que você teve que renunciar para conseguir.</p>
 
             <a href="https://www.facebook.com/guifast.pimentel" target="_blank">
@@ -506,7 +498,7 @@
                     src="img/twitter-social-badge.png"></a>
 
             <div class="copyright">
-                &copy;<strong><span>MeuPortifolio</span></strong>.
+                &copy;<strong><span>Meu Portifolio</span></strong>.
             </div>
         </div>
     </footer>

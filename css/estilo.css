@@ -8,7 +8,7 @@
 /*corpo - body*/
 body {
     font-family: "Lato", sans-serif;
-    color: white;
+    color:black;
 }
 
 i{
@@ -169,8 +169,13 @@ i{
     color: #414141;
 }
 
-/*cards*/
-
+/*jumbotron*/
+.jumbotron-with-background {
+    background-image: url("../img/banner2.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #projetos,
 footer{
